@@ -3,10 +3,10 @@
 This repository contains four projects that serve as practical applications of deep learning concepts from the book Deep Learning with Python by François Chollet. Each project focuses on a different aspect of deep learning, including classification, regression, and working with Keras, a deep learning framework.
 
 ## Table of Contents
-- [Newswire Topic Classification](newswire_topic_classification.py)
+- [Newswire Topic Classification](newswires_topic_classification.py)
 - [Boston Housing Price Prediction](boston_housing_house_price_prediction.py)
-- [MNIST Digit Classification](mnist_digit_classification.py)
-- [IMDB Movie Review Sentiment Analysis](imdb_sentiment_analysis.py)
+- [MNIST Digit Classification](MNIST_handwritten_digit_classification.py)
+- [IMDB Movie Review Sentiment Analysis](IMDB_movie_review_classification.py)
 
 ## Newswire Topic Classification
 This project focuses on classifying Reuters newswires into 46 mutually exclusive topics. The model is built using Keras with a simple neural network consisting of fully connected layers. The data is preprocessed by converting words into vectors of 10,000 most frequent words, and the labels are one-hot encoded.
